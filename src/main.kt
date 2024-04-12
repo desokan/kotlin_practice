@@ -1,7 +1,5 @@
 fun main () {
-    var result = 3
-    result *= 10 // result = result * 10
-    result += 6
-
-    println(result)
+    val myArray = arrayOf("1", "2", "3", 9)
+    println(myArray[3])
+    println(myArray.size)
 }
